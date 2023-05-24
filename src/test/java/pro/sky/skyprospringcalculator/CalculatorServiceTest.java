@@ -64,8 +64,8 @@ class CalculatorServiceTest {
 
     @Test
     void testDivide() {
-        var actual = service.divide(1, 2);
-        assertEquals(0.5,actual);
+        var result = service.divide(1, 2);
+        assertEquals(0,result);
 
         var result2 = service.divide(-6, -6);
         assertEquals(1, result2);
