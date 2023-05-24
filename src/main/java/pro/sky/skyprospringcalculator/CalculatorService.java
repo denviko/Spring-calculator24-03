@@ -17,6 +17,6 @@ public class CalculatorService {
         if (num2 == 0) {
             throw new IllegalArgumentException();
         }
-        return (double) num1 / num2;
+        return (int) num1 / num2;
     }
 }
